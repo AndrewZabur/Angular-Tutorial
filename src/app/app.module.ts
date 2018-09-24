@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatListModule } from '@angular/material/list';
+import { MatGridListModule }from '@angular/material/grid-list';
+import { MatCardModule }from '@angular/material/card';
+import { MatButtonModule }from '@angular/material/button';
 import { HttpModule } from '@angular/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
@@ -24,6 +27,9 @@ import { MenuComponent } from './menu/menu.component';
     HttpModule,
     MatToolbarModule,
     MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatButtonModule,
     FlexLayoutModule
   ],
   providers: [],
