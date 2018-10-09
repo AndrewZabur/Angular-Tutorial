@@ -10,6 +10,10 @@ import { MatButtonModule }from '@angular/material/button';
 import { HttpModule } from '@angular/http';
 import { MatDialogModule } from '@angular/material/dialog';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+
 
 import 'hammerjs';
 
@@ -52,7 +56,11 @@ import { LoginComponent } from './login/login.component';
     MatDialogModule,
     MatButtonModule,
     FlexLayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatCheckboxModule
   ],
   providers: [DishService, PromotionService, LeaderService],
   entryComponents:[
